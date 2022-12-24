@@ -1,0 +1,17 @@
+10:false
+# INITIAL_ARRAY_SIZE-NUMBER:STRICT-BOOLEAN - metadata syntax
+
+# Inspired by BrainF
+
+# > - move one index
+# < - move down one index
+# + - increment value in index
+# - - decrement value in index
+# [LOOP_AMOUNT:ACTION] - Loop syntax
+# . - output (char)
+# _ - output (raw trimmed)
+# ~ - output (raw)
+# , - input (adds input value to the current index's value)
+
+[72:+]>[97:+]>,
+<[2:-]._~
